@@ -1,16 +1,16 @@
 print("\n======  Kosan Putri  =======")
 print("Menyediakan Kosan Khusus Putri")
 
-ps = input("Silahkan Masukkan nama anda : ")
-print("Nama Penyewa = ", ps)
+kp= input("Silahkan Masukkan nama anda : ")
+print("Nama Penyewa = ", kp)
 
-ps2 = input("Apakah anda punya ktp  : ")
+kp = input("Apakah anda punya ktp  : ")
 i = 0
-while i == ps2:
-    if ps2 == "Iya":
-        print("Silahkan Pilih terlebih dahulu Kamar yang akan disewa",ps)
+while i == kp:
+    if kp == "Iya":
+        print("Silahkan Pilih terlebih dahulu Kamar yang akan disewa",kp)
 
-    elif ps2 == "Tidak" :
+    elif kp == "Tidak" :
         print("Mohon maaf harus ada ktp ")
 
 
