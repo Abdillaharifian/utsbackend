@@ -1,10 +1,3 @@
-# lulus =input("Apakah Kamu lulus")
-# if lulus == "Tidak":
-#     print("kamu tidak lulus")
-
-# elif lulus == "Iya":
-#     print("Kamu Lulus")
-
 print("\n======  Kosan Putri  =======")
 print("Menyediakan Kosan Khusus Putri")
 
