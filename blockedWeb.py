@@ -4,14 +4,8 @@ print("Menyediakan Kosan Khusus Putri")
 kp= input("Silahkan Masukkan nama anda : ")
 print("Nama Penyewa = ", kp)
 
-kp = input("Apakah anda punya ktp  : ")
-i = 0
-while i == kp:
-    if kp == "Iya":
-        print("Silahkan Pilih terlebih dahulu Kamar yang akan disewa",kp)
-
-    else:
-        print("Mohon maaf harus ada ktp ")
+Jelas = 'iya'
+While(true):
 
 
 nama = ["Kamar VIP 1 ", "KamarVIP 2" , "KamarNonVIP 3" , "KamarNonVIP 4"]
@@ -44,3 +38,7 @@ elif sewa == 4:
     print("KamarNonVIP 4 Rp : ", biaya3)
     
 print("\n======== T E R I M A   K A S I H =========")
+
+Jelas=input(" Apakah anda ingin menambahkan kamar") 
+if jelas == 'tidak':
+    break
