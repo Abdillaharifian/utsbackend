@@ -42,3 +42,5 @@ elif sewa == 3:
 elif sewa == 4:
     biaya3 = lama*75000
     print("KamarNonVIP 4 Rp : ", biaya3)
+    
+print("\n======== T E R I M A   K A S I H =========")
