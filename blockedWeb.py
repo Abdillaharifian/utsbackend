@@ -10,7 +10,7 @@ while i == kp:
     if kp == "Iya":
         print("Silahkan Pilih terlebih dahulu Kamar yang akan disewa",kp)
 
-    elif kp == "Tidak" :
+    else:
         print("Mohon maaf harus ada ktp ")
 
 
